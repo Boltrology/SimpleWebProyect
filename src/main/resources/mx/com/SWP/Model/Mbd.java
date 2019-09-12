@@ -1,4 +1,4 @@
-package mx.com.SimpleWebLogin.Model;
+package mx.com.SWP.Model;
 
 import java.sql.*;
 import javax.sql.*;
