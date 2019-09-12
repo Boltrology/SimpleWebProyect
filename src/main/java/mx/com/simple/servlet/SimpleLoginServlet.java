@@ -38,9 +38,9 @@ public class SimpleLoginServlet extends HttpServlet {
         if (user.equals("rodrigo@garcia.com") && password.equals("holamundo")) {
             request.setAttribute("response", "Bienvenido, Rodrigo!!");
         } else if (user.equals("miguel@angel.com") && password.equals("holamundo")) {
-            request.setAttribute("response", "Bienvenido, Rodrigo!!");
-        } else if (user.equals("karen@abigail.com") && password.equals("holamundo")) {
             request.setAttribute("response", "Bienvenido, Miguel Angel!!");
+        } else if (user.equals("karen@abigail.com") && password.equals("holamundo")) {
+            request.setAttribute("response", "Bienvenido, Karen!!");
         } else {
             request.setAttribute("response", "No se pudo autenticar el usuario");
         }
